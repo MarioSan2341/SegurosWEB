@@ -82,5 +82,5 @@ export function fullAddress(): string {
 }
 
 export function defaultWhatsAppMessage(): string {
-  return `Hola, me gustaría ${brand.slogan.toLowerCase()} con ${brand.name}.`
+  return `Hola, me gustaría hablar de seguros con ${brand.name}.`
 }
