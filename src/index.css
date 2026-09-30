@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "Outfit", system-ui, sans-serif;
+  --color-ink: #122033;
+  --color-ink-2: #1c3348;
+  --color-cream: #f7f3eb;
+  --color-paper: #fffdf8;
+  --color-copper: #c45c26;
+  --color-copper-dark: #9b4518;
+  --color-sage: #2f5d4e;
+  --color-line: #e4dcd0;
+  --color-muted: #5d6973;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background: var(--color-cream);
+}
+
+#root {
+  min-height: 100svh;
+}
+
+::selection {
+  background: #edc4aa;
+  color: var(--color-ink);
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(18, 32, 51, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(18, 32, 51, 0.045) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
