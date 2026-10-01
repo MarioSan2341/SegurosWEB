@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import logoSeguros from "../assets/logoseguros.png"
+import logoSeguros from "../assets/logo2.jpg"
 import { InsurerLogos } from "../components/InsurerLogos"
 import { PhotoGrid } from "../components/PhotoGrid"
 import { brand } from "../data/brand"
@@ -10,7 +10,7 @@ import { primaryWhatsAppUrl } from "../lib/whatsapp"
 export function Home() {
   return (
     <div>
-      <section className="hero-grid border-b border-line">
+      <section className="border-b border-line">
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 py-16 lg:grid-cols-2 lg:py-24">
           <div>
             <p className="text-xs font-semibold tracking-[0.2em] text-copper uppercase">
@@ -40,11 +40,11 @@ export function Home() {
               </a>
             </div>
           </div>
-          <figure className="flex items-center justify-center overflow-hidden rounded-[2rem] border border-line bg-paper p-6 shadow-[0_24px_60px_-28px_rgba(18,32,51,0.55)] sm:p-10">
+          <figure className="mx-auto aspect-square w-full max-w-md overflow-hidden rounded-full">
             <img
               src={logoSeguros}
               alt="Logo de ATCH Tornel Asesores"
-              className="aspect-square w-full max-w-md object-contain"
+              className="h-full w-full object-cover"
             />
           </figure>
         </div>
