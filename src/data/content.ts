@@ -70,8 +70,8 @@ export const insurers = [
   { name: "HDI Seguros", logo: "/insurers/hdi.svg" },
   { name: "ANA Seguros", logo: "/insurers/ana.svg" },
   { name: "AXA Seguros", logo: "/insurers/axa.svg" },
-  { name: "MAPFRE México", logo: "/insurers/mapfre.svg" },
-  { name: "General de Seguros", logo: "/insurers/general.svg" },
+  { name: "mapfre México", logo: "/insurers/mapfre.svg" },
+  { name: "Général de Seguros", logo: "/insurers/general.svg" },
 ]
 
 export const steps = [
