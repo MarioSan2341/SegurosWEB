@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom"
+import logoSeguros from "../assets/logoseguros.png"
 import { InsurerLogos } from "../components/InsurerLogos"
 import { PhotoGrid } from "../components/PhotoGrid"
 import { brand } from "../data/brand"
 import { faqs, products, stats, steps } from "../data/content"
-import { heroPhoto, homePhotos } from "../data/photos"
+import { homePhotos } from "../data/photos"
 import { primaryWhatsAppUrl } from "../lib/whatsapp"
 
 export function Home() {
@@ -39,11 +40,11 @@ export function Home() {
               </a>
             </div>
           </div>
-          <figure className="overflow-hidden rounded-[2rem] border border-line shadow-[0_24px_60px_-28px_rgba(18,32,51,0.55)]">
+          <figure className="flex items-center justify-center overflow-hidden rounded-[2rem] border border-line bg-paper p-6 shadow-[0_24px_60px_-28px_rgba(18,32,51,0.55)] sm:p-10">
             <img
-              src={heroPhoto.src}
-              alt={heroPhoto.alt}
-              className="aspect-[4/5] w-full object-cover object-top sm:aspect-[3/4]"
+              src={logoSeguros}
+              alt="Logo de ATCH Tornel Asesores"
+              className="aspect-square w-full max-w-md object-contain"
             />
           </figure>
         </div>
