@@ -1,5 +1,4 @@
 import logo from "../assets/logoSegurosattch.png"
-import { brand } from "../data/brand"
 
 type LogoProps = {
   className?: string
@@ -23,14 +22,14 @@ export function Logo({ className = "", onDark = false, mark = true }: LogoProps)
             onDark ? "text-cream" : "text-ink"
           }`}
         >
-          {brand.shortName}
+          ATCH
         </span>
         <span
-          className={`block text-[0.65rem] font-semibold tracking-[0.18em] uppercase ${
-            onDark ? "text-cream/70" : "text-muted"
+          className={`block text-sm font-medium ${
+            onDark ? "text-cream/80" : "text-muted"
           }`}
         >
-          Asesores
+          Tornel asesores
         </span>
       </span>
     </span>

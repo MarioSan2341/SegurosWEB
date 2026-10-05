@@ -1,3 +1,11 @@
+import anaLogo from "../assets/ANA.png"
+import axaLogo from "../assets/AXA.png"
+import chubbLogo from "../assets/chubb.png"
+import generalLogo from "../assets/GENERAL.jpg"
+import hdiLogo from "../assets/HDI.png"
+import mapfreLogo from "../assets/MAPFRE.png"
+import qualitasLogo from "../assets/qualitas.png"
+
 export const stats = [
   { value: "20+ años", label: "en atención de siniestros" },
   { value: "15 años", label: "en servicio y atención a clientes" },
@@ -65,13 +73,13 @@ export const quoteProducts = [
 ]
 
 export const insurers = [
-  { name: "Quálitas", logo: "/insurers/qualitas.svg" },
-  { name: "Chubb", logo: "/insurers/chubb.svg" },
-  { name: "HDI Seguros", logo: "/insurers/hdi.svg" },
-  { name: "ANA Seguros", logo: "/insurers/ana.svg" },
-  { name: "AXA Seguros", logo: "/insurers/axa.svg" },
-  { name: "mapfre México", logo: "/insurers/mapfre.svg" },
-  { name: "Général de Seguros", logo: "/insurers/general.svg" },
+  { name: "Quálitas", logo: qualitasLogo },
+  { name: "Chubb", logo: chubbLogo },
+  { name: "HDI Seguros", logo: hdiLogo },
+  { name: "ANA Seguros", logo: anaLogo },
+  { name: "AXA Seguros", logo: axaLogo },
+  { name: "MAPFRE México", logo: mapfreLogo },
+  { name: "General de Seguros", logo: generalLogo },
 ]
 
 export const steps = [
@@ -96,6 +104,10 @@ export const faqs = [
   {
     q: "¿Ustedes son una aseguradora?",
     a: "No. Somos asesores y mediadores: te ayudamos a contratar con aseguradoras en convenio y a que la póliza se cumpla si hay un siniestro.",
+  },
+  {
+    q: "Si tengo un siniestro, ¿ATCH Tornel Asesores me acompaña?",
+    a: "Sí. Acompañamos a nuestros clientes en cualquier siniestro. Es parte de nuestro trabajo estar contigo: te orientamos, damos seguimiento con la aseguradora y no te dejamos solo hasta que se cumpla lo que marca tu póliza.",
   },
   {
     q: "¿En qué zonas trabajan?",

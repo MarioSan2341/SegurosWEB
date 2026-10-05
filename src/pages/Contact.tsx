@@ -1,4 +1,6 @@
 import { useState, type FormEvent } from "react"
+import officePhoto from "../assets/site/FotoLugar.jpeg"
+import officeVideo from "../assets/site/VideoLugar.mp4"
 import { SocialIcon } from "../components/SocialIcon"
 import { brand, fullAddress } from "../data/brand"
 import { primaryWhatsAppUrl, whatsappUrl } from "../lib/whatsapp"
@@ -180,6 +182,32 @@ export function Contact() {
           </button>
         </form>
       )}
+
+      <section className="lg:col-span-2">
+        <p className="text-xs font-semibold tracking-[0.2em] text-copper uppercase">
+          La oficina
+        </p>
+        <h2 className="mt-2 font-display text-3xl text-ink">Manuel Acuña #3, Santa Anita</h2>
+        <p className="mt-3 max-w-2xl text-muted">
+          Así se ve el lugar en Tlaquepaque. La entrada está junto al árbol, frente a la casa blanca con el zoclo morado.
+        </p>
+        <div className="mt-6 grid gap-4 lg:grid-cols-2">
+          <img
+            src={officePhoto}
+            alt="Fachada de la oficina de ATCH Tornel Asesores en Santa Anita, Tlaquepaque"
+            className="h-full max-h-[28rem] w-full rounded-2xl border border-line object-cover"
+          />
+          <video
+            src={officeVideo}
+            controls
+            playsInline
+            preload="metadata"
+            className="h-full max-h-[28rem] w-full rounded-2xl border border-line bg-ink object-cover"
+          >
+            Tu navegador no puede reproducir este video.
+          </video>
+        </div>
+      </section>
     </div>
   )
 }
