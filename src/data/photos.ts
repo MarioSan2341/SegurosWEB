@@ -13,7 +13,6 @@ export type Photo = {
   src: string
   alt: string
   caption: string
-  frame?: string
   position?: string
 }
 
@@ -22,8 +21,7 @@ export const homePhotos: Photo[] = [
     src: equipoPresentacion,
     alt: "Asesores de ATCH Tornel Asesores",
     caption: "ATCH Tornel Asesores",
-    frame: "aspect-[3/4]",
-    position: "object-top",
+    position: "object-[center_35%]",
   },
   {
     src: graduacion,

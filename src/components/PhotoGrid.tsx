@@ -16,7 +16,7 @@ export function PhotoGrid({ photos, className = "" }: PhotoGridProps) {
           <img
             src={photo.src}
             alt={photo.alt}
-            className={`${photo.frame ?? "aspect-[4/3]"} w-full object-cover ${photo.position ?? "object-center"}`}
+            className={`aspect-[4/3] w-full object-cover ${photo.position ?? "object-center"}`}
             loading="lazy"
           />
           <figcaption className="px-4 py-3 text-sm text-ink-2">{photo.caption}</figcaption>
