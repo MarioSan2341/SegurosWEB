@@ -1,6 +1,7 @@
 import capacitacion from "../assets/site/capacitacion.jpg"
 import equipoEvento from "../assets/site/equipo-evento.jpg"
 import equipoNuevo from "../assets/site/equipo-nuevo.jpg"
+import equipoPresentacion from "../assets/site/equipo-presentacion.jpg"
 import fachadaEquipo from "../assets/site/fachada-equipo.jpg"
 import graduacion from "../assets/site/graduacion.jpg"
 import oficinaEquipo from "../assets/site/oficina-equipo.jpg"
@@ -15,6 +16,11 @@ export type Photo = {
 }
 
 export const homePhotos: Photo[] = [
+  {
+    src: equipoPresentacion,
+    alt: "Asesores de ATCH Tornel Asesores",
+    caption: "ATCH Tornel Asesores",
+  },
   {
     src: graduacion,
     alt: "Ceremonia de la Escuela de Coordinadores de Quálitas",
