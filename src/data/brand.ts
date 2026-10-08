@@ -35,6 +35,11 @@ export const brand = {
       display: "81 4328 5491",
       e164: "528143285491",
     },
+    {
+      region: "Guanajuato",
+      display: "477 275 1234",
+      e164: "524772751234",
+    },
   ],
   socials: [
     {

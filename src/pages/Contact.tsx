@@ -39,8 +39,8 @@ export function Contact() {
           {brand.slogan}
         </h1>
         <p className="mt-4 max-w-xl text-lg text-muted">
-          Oficina en Tlaquepaque, Jalisco, y atención por WhatsApp en Jalisco y
-          Nuevo León.
+          Oficina en Tlaquepaque, Jalisco, y atención por WhatsApp en Jalisco,
+          Nuevo León y Guanajuato.
         </p>
 
         <div className="mt-8 grid gap-4 sm:grid-cols-2">

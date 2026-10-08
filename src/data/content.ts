@@ -111,7 +111,7 @@ export const faqs = [
   },
   {
     q: "¿En qué zonas trabajan?",
-    a: "Nuestra oficina está en Santa Anita, Tlaquepaque, Jalisco. Atendemos por WhatsApp desde Jalisco (33) y Nuevo León (81), y la intermediación de seguros es a nivel nacional.",
+    a: "Nuestra oficina está en Santa Anita, Tlaquepaque, Jalisco. Atendemos por WhatsApp desde Jalisco (33), Nuevo León (81) y Guanajuato (477), y la intermediación de seguros es a nivel nacional.",
   },
   {
     q: "¿La cotización aparece automática en la página?",
