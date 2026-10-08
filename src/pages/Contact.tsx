@@ -56,6 +56,11 @@ export function Contact() {
                 WhatsApp {line.region}
               </p>
               <p className="mt-2 text-ink">{line.display}</p>
+              {line.email ? (
+                <a href={`mailto:${line.email}`} className="mt-1 block text-sm text-muted">
+                  {line.email}
+                </a>
+              ) : null}
             </a>
           ))}
           <div className="rounded-2xl border border-line bg-paper p-5">

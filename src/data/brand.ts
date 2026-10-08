@@ -39,6 +39,7 @@ export const brand = {
       region: "Guanajuato",
       display: "477 275 1234",
       e164: "524772751234",
+      email: "jvmata@atchtornelasesores.com",
     },
   ],
   socials: [

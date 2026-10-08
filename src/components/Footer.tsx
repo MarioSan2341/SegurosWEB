@@ -56,6 +56,14 @@ export function Footer() {
             {brand.whatsapp.map((line) => (
               <li key={line.e164}>
                 WhatsApp {line.region}: {line.display}
+                {line.email ? (
+                  <>
+                    <br />
+                    <a href={`mailto:${line.email}`} className="hover:text-cream">
+                      {line.email}
+                    </a>
+                  </>
+                ) : null}
               </li>
             ))}
             {brand.emails.map((email) => (
